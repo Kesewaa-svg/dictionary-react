@@ -1,8 +1,11 @@
 .App container {
   max-width: 800px;
+  border: 1px solid saddlebrown;
 }
 
 .App h1 {
+  font-size: 50px;
+  color: grey;
 }
 .App-footer {
   margin-top: 10px;
