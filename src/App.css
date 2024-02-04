@@ -1,11 +1,27 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 200, 124) 0%,
+    rgb(252, 251, 121) 90%
+  );
+}
+
+.App {
+  background-color: darkorange;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
 .App container {
-  max-width: 800px;
   border: 1px solid saddlebrown;
+  color: blanchedalmond;
 }
 
 .App h1 {
   font-size: 50px;
-  color: grey;
+  color: darkblue;
 }
 .App-footer {
   margin-top: 10px;

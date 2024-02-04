@@ -14,12 +14,16 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <p>
-            This project was created by
-            <a href="https://jessica-abiri-portfolio.netlify.app/">
-              Jessica Abiri 👩🏽‍💻{" "}
-            </a>{" "}
-            and is open-sourced on{" "}
-            <a href="https://github.com/Kesewaa-svg/dictionary-react">Github</a>
+            <em>
+              This project was created by
+              <a href="https://jessica-abiri-portfolio.netlify.app/">
+                Jessica Abiri 👩🏽‍💻{" "}
+              </a>{" "}
+              and is open-sourced on{" "}
+              <a href="https://github.com/Kesewaa-svg/dictionary-react">
+                Github
+              </a>
+            </em>{" "}
           </p>
         </footer>
       </div>
