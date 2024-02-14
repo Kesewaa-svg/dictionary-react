@@ -1,5 +1,36 @@
+.Dictionary section {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 200, 124) 0%,
+    rgb(252, 251, 121) 90%
+  );
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.7);
+  margin: 20px;
+}
+
 .Dictionary form {
   margin-bottom: 30px;
   font-size: 24px;
   font-weight: bold;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 8px 15px;
+  border: 1px solid #0e173b;
+}
+
+.Dictionary .suggestedWord {
+  font-size: 12px;
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+.Dictionary h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(75, 69, 69);
 }
